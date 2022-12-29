@@ -1,14 +1,8 @@
-### MARKDOWN
+# MARKDOWN 문법(syntax)
 ![search pstatic](https://user-images.githubusercontent.com/121528432/209982749-5d7b5e7e-f68a-4fb2-b0c6-683957dcd367.jpg)
 
-#### 마크다운이란?
 
-마크다운은 단순한 텍스트 문법으로 내용을 작성하여, 이를 다양한 환경에서 변환하여 보여준다.
-
-VScode 내에서 작성한 파일을 우클릭/Open Preview 하여 Preview를 볼 수 있다.
-___
-
-제목(Header)
+## 제목(Header)
 `<h1>`부터 `<h6>`까지 제목을 표현할 수 있습니다.
 
 ![image](https://user-images.githubusercontent.com/121528432/209986951-a399eae3-aabb-43ad-9f23-3bc8fabec965.png)
@@ -18,65 +12,44 @@ ___
 
 ![image](https://user-images.githubusercontent.com/121528432/209987001-78421e4e-8ddf-462a-abd3-de66a9540874.png)
 
-___
+## 강조(Emphasis)
+
+각각 `<em>`, `<strong>`, `<del>` 태그로 변환됩니다.
+
+밑줄을 입력하고 싶다면 `<u></u>` 태그를 사용하세요.
+
+![image](https://user-images.githubusercontent.com/121528432/209988865-955b8515-af67-4a07-b616-f310677c8ffd.png)
+
+이텔릭체는 *별표(asterisks)* or _언더바(underscore)_ 를 사용하세요.
+
+두껍게는 **별표(asterisks)** or __언더바(underscore)__ 를 사용하세요.
+
+**_이텔릭체_ 와 두껍게**를 같이 사용할 수 있습니다.
+
+취소선은 ~~물결표시(tilde)~~ 를 사용하세요.
+
+밑줄은 `<u></u>`를 사용하세요.
 
 
-***, -, 1. tab을 사용하여 List 작성이 가능**
+## 목록(List)
 
-- 샌드위치
-  - 치즈
-    1. 아메리칸 치즈
-    2. 슈레드 치즈
-    3. 모짜렐라 치즈
+`<ol>`, `<ul>` 목록 태그로 변환됩니다.
 
-- 마라탕
-  - 1단계
-  - 2단계
-  - 3단계
+![image](https://user-images.githubusercontent.com/121528432/209990284-a8fef026-8f35-479d-ac9a-5443844ecd90.png)
 
-___
+1. 순서가 필요한 목록
 
-backtick 기호를 좌우로 3 번씩 사용하여 Fenced Code block이 가능해요
+2. 순서가 필요한 목록
+    - 순서가 필요하지 않은 목록(서브)
+    - 순서가 필요하지 않은 목록(서브)
 
-backtick 키는 ESC 밑에 있는 `(~) 키 입니다.
-backtick 기호를 좌우로 1 번씩 사용하여 강조가 가능해요
+3. 순서가 필요한 목록
+    1. 순서가 필요하지 않은 목록(서브)
+    2. 순서가 필요하지 않은 목록(서브)
 
-마크다운은 `마크업` 언어에요
-___
+4. 순서가 필요한 목록
 
-### link 작성이 가능
-
-[네이버](https://www.naver.com)
-
-`[]`= 하이퍼링크 (파란색 글자) 제목
-
-`()`= 링크주소
-
-`""`=마우스를 하이퍼링크 위에 올려 놓았을 때 정보 표시가 되요
-
-### image 작성이 가능
-
-![search pstatic](https://user-images.githubusercontent.com/121528432/209983260-cbafddd9-6b97-42c6-b939-265b1a4aaf1b.jpg)
-
-`![이미지](~.jpg)`
-
-**강아지 ♥** 
-
-### table 작성이 가능
-
-### 굵게(bold), *기울임(Italic)*, ~~취소선(strikethrough)~~ 으로 특정 글자 ⭕ 강조가 가능해요 ⭕
-```
-**굵게**
-
-*기울임*
-
-~~취소선~~
-
-***굵고 기울게***
-
-**~~굵고 취소선~~**
-
-***~~굵고 기울게 취소선~~***
-
-```
-마크다운 문법 자체로는 가운데 정렬이나 글자 색 변경은 🚫 **불가능** 🚫
+* 순서가 필요하지 않은 목록에 사용 가능한 기호
+  - 대쉬(hyphen)
+  - 별표(asterisks)
+  - 더하기(plus sign)

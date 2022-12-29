@@ -115,3 +115,65 @@
 ![image](https://user-images.githubusercontent.com/121528432/209992300-1178b1ec-ff87-4878-b6b4-afb9b75195ff.png)
 
 
+## 표(Table)
+
+`<table>` 태그로 변환됩니다.
+
+헤더 셀을 구분할 때 3개 이상의 `-`(hyphen/dash) 기호가 필요합니다.
+
+헤더 셀을 구분하면서 `:`(Colons) 기호로 셀(열/칸) 안에 내용을 정렬할 수 있습니다.
+
+가장 좌측과 가장 우측에 있는 `|`(vertical bar) 기호는 생략 가능합니다.
+
+![image](https://user-images.githubusercontent.com/121528432/209992616-dfc5878a-428d-496a-bdbb-dc6ff2d38b59.png)
+
+값 | 의미 | 기본값
+---|:---:|---:
+`static` | 유형(기준) 없음 / 배치 불가능 | `static`
+`relative` | 요소 **자신**을 기준으로 배치 |
+`absolute` | 위치 상 **_부모_(조상)요소**를 기준으로 배치 |
+`fixed` | **브라우저 창**을 기준으로 배치 |
+
+
+## 인용문(BlockQuote)
+
+`<blockquote>` 태그로 변환됩니다.
+
+![image](https://user-images.githubusercontent.com/121528432/209992871-21282647-b38b-4922-83f6-5e1ebf7594dc.png)
+
+인용문(blockQuote)
+
+> 남의 말이나 글에서 직접 또는 간접으로 따온 문장.
+> _(네이버 국어 사전)_
+
+BREAK!
+
+> 인용문을 작성하세요 !
+>> 중첩된 인용문(nested blockquote)을 만들 수 있습니다.
+>>> 중중첩된 인용문 1
+>>> 중중첩된 인용문 2
+>>> 중중첩된 인용문 3
+
+## 수평선(Horizontal Rule)
+
+![image](https://user-images.githubusercontent.com/121528432/209993136-0de3f38f-9afd-4ee9-bef3-b874f53148bf.png)
+
+-
+(Hyphens)
+
+***
+(Asterisks)
+
+___
+(Underscores)
+
+## 줄바꿈(Line Breaks)
+
+![image](https://user-images.githubusercontent.com/121528432/209993310-e00ed02a-0d24-4b5e-ba4c-16c216a46aba.png)
+
+동해물과 백두산이 마르고 닳도록       
+하느님이 보우하사 우리나라 만세       
+무궁화 삼천리 화려 강산<br>
+대한 사람 대한으로 길이 보전하세
+
+> 일반 줄바꿈이 동작하지 않는 환경(설정 및 버전에 따라)의 경우, ‘2번의 띄어쓰기’나 `<br>`를 활용할 수 있습니다.
